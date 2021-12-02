@@ -143,7 +143,6 @@ def main():
 
     def redraw_window():
         SURF.blit(BG, (0, 0))
-        pygame.display.update()
         lives_display = font.render(f"Lives : {lives}", True, (0, 0, 255))
         level_display = font.render(f"Wave : {waves}", True, (255, 0, 0))
 
